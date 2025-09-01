@@ -22,4 +22,7 @@ The grandient-based score can be calculated through:
 ```
 python room_feature_generator_exp/head_selector_metrics.py
 ```
-Make sure you run the feature_extractor.py before calculating the score.
+Make sure to run the feature_extractor.py before calculating the score.
+
+## Incremental Spectral Clustering
+### Accuracy test
