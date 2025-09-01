@@ -28,3 +28,9 @@ Make sure to run the feature_extractor.py before calculating the score.
 
 ## Incremental Spectral Clustering
 ### Accuracy test
+You can run the accuracy test for the incremental spectral clustering with different numbers of clusters by:
+```
+python isc_exp/Accuracy_test.py --n_cluster 4
+```
+### Stability test
+The stability test can 
