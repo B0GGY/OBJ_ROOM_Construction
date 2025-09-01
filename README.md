@@ -1,4 +1,5 @@
 # OBJ_ROOM_Construction
+![image]()
 This is the code for the paper 'From Object to Room: Building Open-Vocabulary Hierarchical Scene Representations'. The mini dataset used for training and validation is included in the 'datasets' dictionary.
 
 ## Dependency
