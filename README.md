@@ -1,6 +1,6 @@
 # OBJ_ROOM_Construction
 
-<img src="[images/example.png](https://github.com/B0GGY/OBJ_ROOM_Construction/blob/master/cover.png)" alt="Cover" width="300">
+![image](https://github.com/B0GGY/OBJ_ROOM_Construction/blob/master/cover.png)
 This is the code for the paper 'From Object to Room: Building Open-Vocabulary Hierarchical Scene Representations'. The mini dataset used for training and validation is included in the 'datasets' dictionary.
 
 ## Dependency
