@@ -6,7 +6,20 @@ from tqdm import tqdm
 from sklearn.metrics import adjusted_rand_score
 import random
 
-n_cluster = 4
+import argparse
+
+
+def get_args_parser():
+  parser = argparse.ArgumentParser("Project Residual Stream", add_help=False)
+  parser.add_argument("--n_cluster", default=4, type=int, help="number of clusters")
+
+  return parser
+
+
+args = get_args_parser()
+args = args.parse_args()
+
+n_cluster = args.n_cluster
 cluster_std=1.5
 n_samples=n_cluster*20
 num_iter = 10
