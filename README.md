@@ -33,4 +33,12 @@ You can run the accuracy test for the incremental spectral clustering with diffe
 python isc_exp/Accuracy_test.py --n_cluster 4
 ```
 ### Stability test
-The stability test can 
+For stability test:
+```
+python isc_exp/Stability_test.py --n_cluster 4
+```
+## Visualizing OBJ-ROOM graphical representation
+To visualize the OBJ-ROOM graphical representation, please run:
+```
+python room_obj_graph_generation/room_obj_generation.py
+```
