@@ -9,8 +9,20 @@ from CH_based import ISC_CH
 from Quality_based import ISCQuatlity
 from Valgren_ISC import IncrementalSP
 from ISC import NewIncrementalSPDivision
+import argparse
 
-n_cluster = 4
+
+def get_args_parser():
+  parser = argparse.ArgumentParser("Project Residual Stream", add_help=False)
+  parser.add_argument("--n_cluster", default=4, type=int, help="number of clusters")
+
+  return parser
+
+
+args = get_args_parser()
+args = args.parse_args()
+
+n_cluster = args.n_cluster
 cluster_std=1.5
 n_samples=n_cluster*20
 
